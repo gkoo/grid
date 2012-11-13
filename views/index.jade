@@ -1,0 +1,13 @@
+h1= title
+
+input#clearbtn(type='button', value='Clear the Grid')
+ul#grid
+  - for (var i=0; i<dimSize; i++)
+    li
+      ul.innergrid
+        - for (var j=0; j<dimSize; j++)
+          li
+
+script(src='/javascripts/jquery-1.4.4.min.js')
+script(src='/socket.io/socket.io.js')
+script(src='/javascripts/grid.js')

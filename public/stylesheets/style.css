@@ -1,0 +1,20 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+#grid {
+  clear: left;
+}
+ul, li {
+  list-style: none;
+}
+.innergrid li {
+  background-color: #fff;
+  border: 1px solid #000;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+}
+.innergrid li.toggled {
+  background-color: black;
+}
